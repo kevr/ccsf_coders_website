@@ -2,10 +2,21 @@ a:link { /* unvisited link */ }
 
 a:visited { /* visited link */ }
 
-a:hover { /* mouse over link */
+.quick-links {
+  margin-bottom: 12px;
+}
+
+.quick-links a:hover, a:hover,
+.quick-links a:active, a:active { /* mouse over link */
     color: #00FF00;
 }
 
-a:active { /* selected link */
-    color: #00FF00;
+.quick-links i {
+  display: inline-block;
+  font-size: 32px;
 }
+
+.quick-links a {
+  color: #fff;
+}
+

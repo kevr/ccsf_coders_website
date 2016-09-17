@@ -1,4 +1,13 @@
 /* Contact styling */
+#contact {
+  margin-top: 40px;
+}
+
+#contact h1:first-child {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 #contact .titles p {
   background-color: #00FF00;
   color: black;

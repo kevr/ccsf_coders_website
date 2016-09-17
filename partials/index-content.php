@@ -51,6 +51,7 @@
   <!-- Individuals contact -->
   <div class="row contacts">
     <h1 class='text-center'>Get In Touch</h1>
+    <?php require_once($templateDirectory . 'quicklinks.php'); ?>
     <div class='table-responsive'>
       <table class='table'>
         <thead>
